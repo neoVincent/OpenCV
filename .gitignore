@@ -35,3 +35,11 @@ Makefile*
 
 #Output
 build/
+
+# MAC Generall
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# MAC Thumbnails
+._*

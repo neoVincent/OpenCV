@@ -15,7 +15,8 @@ win32 {
 }
 
 mac{
-    OPENCV_DIR = /usr/local/opencv
+# OpenCV was installed by brew
+    OPENCV_DIR = /usr/local
     QMAKE_LIBDIR += $$OPENCV_DIR/lib
     INCLUDEPATH += $$OPENCV_DIR/include/
 }
